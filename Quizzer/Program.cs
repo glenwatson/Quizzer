@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 
 namespace Quizzer
@@ -11,7 +9,7 @@ namespace Quizzer
         private static int timer = 800;
         static void Main(string[] args)
         {
-            List<Question> masterList = QuestionParser.ParseFile(@"C:\Users\glen.watson\Documents\Visual Studio 2010\Projects\Quizzer\Quizzer\compassDegrees.txt");
+            List<Question> masterList = QuestionParser.ParseFile(@"C:\Users\glen.watson\Documents\Visual Studio 2010\Projects\Quizzer\Quizzer\nato.txt");
             bool run = true;
             Console.WriteLine("Press J if you get the question correct.\r\nReady?");
             Console.ReadLine();
@@ -20,7 +18,7 @@ namespace Quizzer
                 List<Question> incorrectList = new List<Question>(masterList);
                 do
                 {
-                    incorrectList = GetIncorrectList(incorrectList, false, false);
+                    incorrectList = GetIncorrectList(incorrectList, randomize:false, reprompt:false);
                 }
                 while (incorrectList.Count > 0);
 
