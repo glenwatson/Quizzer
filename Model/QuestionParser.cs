@@ -10,10 +10,11 @@ namespace Quizzer
     {
         /// <summary>
         /// Format is:
-        /// QuestionQuestionQuestion
-        /// AnswerAnswerAnswerAnswerAnswer
+        /// Question
+        /// Answer
         /// 
-        /// NextQuestionNextQuestionNextQuestionNextQuestion
+        /// NextQuestion
+        /// NextAnswer
         /// ...
         /// </summary>
         /// <param name="path"></param>

@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizzer", "Quizzer\Quizzer.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{BB831FCA-8AEC-43C5-AD06-8767C9F1C256}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUIView", "GUIView\GUIView.csproj", "{614229D5-7E82-493A-BA51-6E55B236D745}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,16 @@ Global
 		{BB831FCA-8AEC-43C5-AD06-8767C9F1C256}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{BB831FCA-8AEC-43C5-AD06-8767C9F1C256}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{BB831FCA-8AEC-43C5-AD06-8767C9F1C256}.Release|x86.ActiveCfg = Release|Any CPU
+		{614229D5-7E82-493A-BA51-6E55B236D745}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{614229D5-7E82-493A-BA51-6E55B236D745}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{614229D5-7E82-493A-BA51-6E55B236D745}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{614229D5-7E82-493A-BA51-6E55B236D745}.Debug|x86.ActiveCfg = Debug|x86
+		{614229D5-7E82-493A-BA51-6E55B236D745}.Debug|x86.Build.0 = Debug|x86
+		{614229D5-7E82-493A-BA51-6E55B236D745}.Release|Any CPU.ActiveCfg = Release|x86
+		{614229D5-7E82-493A-BA51-6E55B236D745}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{614229D5-7E82-493A-BA51-6E55B236D745}.Release|Mixed Platforms.Build.0 = Release|x86
+		{614229D5-7E82-493A-BA51-6E55B236D745}.Release|x86.ActiveCfg = Release|x86
+		{614229D5-7E82-493A-BA51-6E55B236D745}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

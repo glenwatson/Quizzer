@@ -9,7 +9,7 @@ namespace Quizzer
         private static int timer = 800;
         static void Main(string[] args)
         {
-            List<Question> masterList = QuestionParser.ParseFile(@"C:\Users\glen.watson\Documents\Visual Studio 2010\Projects\Quizzer\Quizzer\nato.txt");
+            List<Question> masterList = QuestionParser.ParseFile(@"..\..\..\nato.txt");
             bool run = true;
             Console.WriteLine("Press J if you get the question correct.\r\nReady?");
             Console.ReadLine();

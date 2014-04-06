@@ -1,0 +1,21 @@
+﻿<Window x:Class="GUIView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80*" />
+            <RowDefinition Height="30*" />
+            <RowDefinition Height="15*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Name="tbQuestion" Text="Question" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="1" Grid.Column="0" Name="tbAnswer" Text="Answer" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <Button Name="btnCorrect" Grid.Row="2" Grid.Column="0" Content="I got it correct! :)" Click="btnCorrect_Click" />
+        <Button Name="btnWrong" Grid.Row="2" Grid.Column="1" Content="I got it wrong :(" Click="btnWrong_Click" />
+    </Grid>
+</Window>
